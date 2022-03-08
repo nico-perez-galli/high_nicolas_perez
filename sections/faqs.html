@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/estilos.css">
 
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,18 +25,38 @@
 <body>
     <img class="background-image" src="../images/svg_flipped.png" alt=""><!-- agregué esto -->
     <header>
-        
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="conocenos.html"> Conocenos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="faqs.html"> FAQ´s</a></li>
-                <li><a href="http://"></a>Ingresar</li>
-                <li><a href="http://"></a>Registrarte</li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-xl navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="conocenos.html">Conocenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ingresar.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registrarte.html">Registrarte</a>
+                  </li>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <h1 class="header_h1" >FAQ´s </h1>
@@ -38,29 +65,91 @@
         <input class="searchbar_input" type="text" placeholder="Buscar 🔎">
     </div>
 
-        <div class="questions_grid">
-            <div class="questions_grid-1">
-                <p>¿Cual es mi nivel de inglés?</p>
+
+
+        <div class="accordion" id="accordionBasic">
+            <div class="accordion-item  ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cúal es mi nivel de inglés? 📈
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
+                <div class="accordion-body">
+                  <strong>No te preocupes. </strong> Si no conocés tu nivel de inglés actual, nuestro equipo coordinara una entrevista evaluativa de <code> 15 minutos </code> que nos permitira asignarte el curso adecuado  para vos.
+                </div>
+              </div>
             </div>
-            <div class="questions_grid-2">
-                <p>¿Cómo obtengo mi certificado?</p>
+            <div class="accordion-item  "  >
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cómo obtengo mi certificado?🎖️
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
+                  <div class="accordion-body">
+                    <strong>Al finalizar el curso</strong> tu certificado se adjuntara automaticamente a tu correo electrónico. Recomendamos que una vez obtenido, lo subas a <img src="../images/Linkedin-Logo-2011-2019 (1).png" alt="">  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cómo son las clases de conversación?🗣️
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
+                  <div class="accordion-body">
+                     Nuestras clases estan diseñadas con todas las macro habilidades en mente <code>(SPEAKING, LISTENING, WRITING & READING)</code> pero nuestro foco principal es que seas capaz de comunicarte oralmente de manera fluida. <br>
+                     Cada unidad cuenta con material de preparacion previo y al final de cada clase se realizara un <em> role play </em> para reforzar los contenidos aprendidos.   
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cuáles son los métodos de pago?💳
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
+                  <div class="accordion-body">
+                    <strong>Todos.</strong> Ofrecemos la mayoría de medios de pago: Efectivo, transferencia, <img src="../images/mercado-pago-logo-vector (2).png" alt="logo-mercado-pago"> , tarjetas de débito y crédito , <img src="../images/paypal (1).png" alt="logo-paypal"> <code>(si no podes visualizar tu método de pago preferido, mandanos un mensaje o llamanos para que podamos asesorar)   </code>.
+                  </div>
+                </div>
+              </div>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Cuál es la metodología de trabajo?✔️
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionBasic">
+                <div class="accordion-body">
+                  <strong>La metodología de trabajo dependera del curso que hayas seleccionado.</strong>Ofrecemos cursos generales, <em> Work & Travel </em>, <img src="../images/ielts-white (2).png" alt="ielts-logo">, y inglés para desarrolladores <img src="../images/coding (1).jpg" alt="coding-logo">  <br> Si querés conocer más sobre nuestros programas hace click <u>aquí.</u> 📚
+                </div>
+              </div>
             </div>
-            <div class="questions_grid-3" >
-                <p>¿Cómo son las clases de conversación?</p>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Puedo estudiar desde cualquier dispositivo? 📱
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionBasic">
+                <div class="accordion-body">
+                  <strong>SI!</strong> Si bien nuestro material puede ser visualizado y descargado desde cualquier dispositivo, recomendamos en lo posible el uso de una PC de escritorio🖥️ o notebook 💻 para el estudio y las clases en vivo ya que este método fomenta la concentración
+                </div>
+              </div>
             </div>
-            <div class="questions_grid-4" >
-                <p>¿Cuales son los metodos de pago?</p>
-            </div>
-            <div class="questions_grid-5" >
-                <p>¿Cual es la metodología de trabajo?</p>
-            </div>
-            <div class="questions_grid-6" >
-                <p>¿Puedo estudiar desde cualquier dispositivo?</p>
-            </div>
-            
-        </div>
+          </div>
 
 
 
+          
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous">
+</script>
 </body>
 </html>
