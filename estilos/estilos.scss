@@ -88,7 +88,7 @@ h1 {
 }
 
 .intro__header {
-    font-size: 12rem ;
+	font-size: 12rem;
 	background: rgb(5, 93, 155);
 	background: linear-gradient(153deg, rgb(3, 53, 88) 0%, rgb(5, 255, 172) 100%);
 	background: -webkit-linear-gradient();
@@ -97,8 +97,7 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 
-
-.intro__notice {	
+.intro__notice {
 	color: #444444;
 }
 
@@ -126,7 +125,6 @@ h1 {
 span {
 	color: $color;
 }
-
 
 button {
 	border: none;
@@ -205,7 +203,7 @@ button:hover {
 .background-image {
 	position: absolute;
 	z-index: -1;
-	width: 100vw;
+	width: 100%;
 	top: 0;
 }
 
@@ -621,32 +619,28 @@ h2 {
 /*-------------------------------------------------CONOCENOS------------------------------------------------------*/
 
 .card-body-1 {
-	background-image:
-     url(https://www.welivesecurity.com/wp-content/uploads/2020/10/Office-365-blanco-apuntado-cibercriminales.jpg);
+	background-image: url(https://www.welivesecurity.com/wp-content/uploads/2020/10/Office-365-blanco-apuntado-cibercriminales.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
 .card-body-2 {
-	background-image: 
-    url(https://images.ctfassets.net/hrltx12pl8hq/7ydS9eSslHVY9i594H5upW/dd3101555781992a483d49721ff7b57a/02-vector-backgrounds_501924556.jpg?fit=fill&w=480&h=270);
-	background-repeat: no-repeat;
-	background-position:center;
-	background-size: cover;
-}
-
-.card-body-3 {
-	background-image: 
-    url(https://cdn.pixabay.com/photo/2016/11/01/18/38/background-1789175_960_720.png);
+	background-image: url(https://images.ctfassets.net/hrltx12pl8hq/7ydS9eSslHVY9i594H5upW/dd3101555781992a483d49721ff7b57a/02-vector-backgrounds_501924556.jpg?fit=fill&w=480&h=270);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
+.card-body-3 {
+	background-image: url(https://cdn.pixabay.com/photo/2016/11/01/18/38/background-1789175_960_720.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 .card-header {
-    color: #444444;
+	color: #444444;
 }
 
 .card-title {
@@ -655,6 +649,6 @@ h2 {
 }
 
 .card-text {
-	color:gainsboro;
+	color: gainsboro;
 	padding: 1rem;
 }

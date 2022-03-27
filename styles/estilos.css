@@ -241,7 +241,7 @@ button:hover {
 .background-image {
   position: absolute;
   z-index: -1;
-  width: 100vw;
+  width: 100%;
   top: 0;
 }
 
