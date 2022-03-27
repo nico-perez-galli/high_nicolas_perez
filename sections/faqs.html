@@ -61,16 +61,16 @@
 <body>
     <img class="background-image" src="../images/svg_flipped.png" alt=""><!-- agregué esto -->
     <header>
-        <nav class="navbar navbar-expand-xl navbar-light ">
+        <nav class="navbar navbar-expand-md navbar-light ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
+              <a class="navbar-brand" href="#"> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarBasic">
                 <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="servicios.html">Servicios</a>
@@ -82,7 +82,7 @@
                     <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="faqs.html">FAQ´s</a>
+                    <a class="nav-link active" aria-current="page" href="faqs.html">FAQ´s</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="registrarte.html">Registrarte</a>
@@ -97,18 +97,20 @@
     </header>
 
     <h1 class="header_h1" >FAQ´s </h1>
-
+<!--
     <div class="searchbar" >
         <input class="searchbar_input" type="text" placeholder="Buscar 🔎">
     </div>
+  -->
 
-
-
-        <div class="accordion" id="accordionBasic"  >
+<div class="container-fluid d-flex justify-content-center align-items-center ">
+<div class="row">
+<div class="col-lg-6 bg-primary mt-5" >
+        <div class="accordion  " id="accordionBasic"  >
 
             <div class="accordion-item  ">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   ¿Cúal es mi nivel de inglés? 📈
                 </button>
               </h2>
@@ -191,10 +193,18 @@
             </div>
          
 
-          </div>
+        
+        </div>
 
+      </div>
+      <div class="col-lg-4 bg-secondary">
+        <img class="mx-auto d-block w-100" src="../images/thinking (1).png" alt="">
+      </div>
 
-          
+        </div>
+        </div>
+
+        
 <!-- Footer -->
 <footer class=" text-center text-white" style="background-color:#1d2331;">
     <!-- Grid container -->
@@ -296,3 +306,4 @@
 </script>
 </body>
 </html>
+
