@@ -21,27 +21,24 @@ div {
   right: 5%;
 }
 
+/*
 ul {
-  width: 100%;
-  height: 7rem;
-  list-style: none;
-  text-decoration: none;
-  color: floralwhite;
-  font-family: "Montserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.1rem;
-  font-size: large;
-  font-weight: 600;
-  padding: 1rem;
-}
+	width: 100%;
+	height: 7rem;
+	list-style: none;
+	text-decoration: none;
 
+	color: floralwhite;
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	letter-spacing: 0.1rem;
+	font-size: large;
+	font-weight: 600;
+	padding: 1rem;
+}
+*/
 .btn__wsp {
   height: 12rem;
   width: 12rem;
@@ -138,31 +135,32 @@ span {
   color: darkorange;
 }
 
+/*
 button {
-  border: none;
-  width: 16rem;
-  height: 4rem;
-  background-color: #7d2ae8;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  color: seashell;
-  border-radius: 1.8rem;
-  padding: 0.8rem;
-  -webkit-box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
-          box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
-}
+	border: none;
+	width: 16rem;
+	height: 4rem;
 
+	background-color: #7d2ae8;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
+	color: seashell;
+
+	border-radius: 1.8rem;
+	padding: 0.8rem;
+
+	box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
+}
 button:hover {
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #1da59e;
-  -webkit-transition: ease-in-out 0.6s;
-  transition: ease-in-out 0.6s;
-  font-size: 1.2rem;
-}
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #1da59e;
 
+	transition: ease-in-out 0.6s;
+	font-size: 1.2rem;
+}
+*/
 .footer {
   font-family: "poppins" sans-serif;
   text-transform: uppercase;
