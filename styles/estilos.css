@@ -50,22 +50,21 @@ ul {
   padding: 1rem;
 }
 
+/*
 a {
-  padding: 0.8rem;
-  text-decoration: none;
-  color: floralwhite;
+	padding: 0.8rem;
+	text-decoration: none;
+	color: floralwhite;
 }
 
 a:hover {
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
-  cursor: pointer;
-  color: #0bcaca;
-  -webkit-transition: ease-in-out 0.6s;
-  transition: ease-in-out 0.6s;
-  font-size: 2rem;
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+	color: rgb(11, 202, 202);
+	transition: ease-in-out 0.6s;
+	font-size: 4rem;
 }
-
+*/
 .logo {
   width: 4rem;
   height: 4rem;
@@ -497,6 +496,28 @@ button:hover {
   padding: 1.2rem;
   line-height: 1.6;
   margin-top: 4rem;
+}
+
+.servicios {
+  border: none;
+  background-color: #7d2ae8;
+  color: seashell;
+  border-radius: 1.8rem;
+  padding: 1rem;
+  -webkit-box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
+          box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
+}
+
+.servicios:hover {
+  background-color: #ef7b00;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  color: #7d2ae8;
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*-------------------------------------------------CONTACTO------------------------------------------------------*/

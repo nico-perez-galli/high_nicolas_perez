@@ -43,6 +43,9 @@ ul {
 	padding: 1rem;
 }
 */
+
+
+
 .btn__wsp {
 	height: 12rem;
 	width: 12rem;
@@ -53,7 +56,7 @@ ul {
 	border-radius: 25rem;
 	padding: 1rem;
 }
-
+/*
 a {
 	padding: 0.8rem;
 	text-decoration: none;
@@ -65,8 +68,10 @@ a:hover {
 	cursor: pointer;
 	color: rgb(11, 202, 202);
 	transition: ease-in-out 0.6s;
-	font-size: 2rem;
+	font-size: 4rem;
 }
+*/
+
 
 .logo {
 	width: 4rem;
@@ -459,8 +464,24 @@ button:hover {
 
 }
 
+.servicios   {
+	border: none;
+	background-color: #7d2ae8;
+	color: seashell;
+	border-radius: 1.8rem;
+	padding: 1rem;
+	box-shadow: #999999 0.2rem 0.1em 1rem 0.1rem;
+}
 
-
+.servicios:hover {
+	background-color: #ef7b00;
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+	color: #7d2ae8;
+	transition: ease-in-out 0.6s;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
 /*-------------------------------------------------CONTACTO------------------------------------------------------*/
 
@@ -608,6 +629,11 @@ h2 {
 }
 
 */
+
+
+
+
+
 
 
 /*-------------------------------------------------FAQS------------------------------------------------------*/
