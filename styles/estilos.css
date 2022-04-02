@@ -103,6 +103,12 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 992px) {
+  .intro__header {
+    font-size: 6rem;
+  }
+}
+
 .intro__notice {
   color: #444444;
 }
@@ -260,227 +266,239 @@ button:hover {
 }
 
 /*-------------------------------------------------SERVICIOS------------------------------------------------------*/
-/*
-
-
 .servicios {
-	color: #444444;
-
-	display: inline;
-	padding: 2rem;
+  color: #444444;
+  display: inline;
+  padding: 2rem;
 }
 
 .grid__container {
-	font-family: "poppins" sans-serif;
-	font-size: 1.8rem;
-	text-transform: uppercase;
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 1fr 8fr;
-
-	margin: 2rem;
-	margin-top: 10rem;
+  font-family: "poppins" sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 1fr 8fr;
+      grid-template-rows: 1fr 8fr;
+  margin: 2rem;
+  margin-top: 10rem;
 }
 
 .grid__container-header {
-	display: flex;
-	color: #7d2ae8;
-	align-items: center;
-	justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #7d2ae8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grid__container-img1 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .grid__container-img1-card {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .grid__container-img1-card:hover {
-	transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .grid__container-img1-card_front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .grid__container-img1-card_back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
-	background: rgb(254, 108, 25);
-
-	color: floralwhite;
-	transform: rotateY(180deg);
-	border-radius: 4rem 0.8rem 4rem 0.8rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: #fe6c19;
+  color: floralwhite;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border-radius: 4rem 0.8rem 4rem 0.8rem;
 }
 
 .grid__container-img1-card_back p {
-	font-size: 1.5rem;
-	margin: 0.1rem;
-	padding: 1.2rem;
-	line-height: 1.6;
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  padding: 1.2rem;
+  line-height: 1.6;
 }
 
 .grid__container-img2 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .grid__container-img2-card {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .grid__container-img2-card:hover {
-	transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .grid__container-img2-card_front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .grid__container-img2-card_back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
-
-	background: rgb(5, 93, 155);
-	background: linear-gradient(
-		153deg,
-		rgba(5, 93, 155, 1) 0%,
-		rgba(1, 225, 150, 1) 100%
-	);
-
-	color: floralwhite;
-	transform: rotateY(180deg);
-	border-radius: 4rem 0.8rem 4rem 0.8rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: #055d9b;
+  background: linear-gradient(153deg, #055d9b 0%, #01e196 100%);
+  color: floralwhite;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border-radius: 4rem 0.8rem 4rem 0.8rem;
 }
 
 .grid__container-img2-card_back p {
-	font-size: 1.5rem;
-	margin: 0.1rem;
-	padding: 1.2rem;
-	line-height: 1.6;
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  padding: 1.2rem;
+  line-height: 1.6;
 }
 
 .grid__container-img3 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .grid__container-img3-card {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .grid__container-img3-card:hover {
-	transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .grid__container-img3-card_front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .grid__container-img3-card_back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
-	background: #7d2ae8;
-	color: floralwhite;
-	transform: rotateY(180deg);
-	border-radius: 4rem 0.8rem 4rem 0.8rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: #7d2ae8;
+  color: floralwhite;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border-radius: 4rem 0.8rem 4rem 0.8rem;
 }
 
 .grid__container-img3-card_back p {
-	font-size: 1.5rem;
-	margin: 0.1rem;
-	padding: 1.2rem;
-	line-height: 1.6;
-	margin-top: 4rem;
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  padding: 1.2rem;
+  line-height: 1.6;
+  margin-top: 4rem;
 }
 
 .grid__container-img4 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .grid__container-img4-card {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .grid__container-img4-card:hover {
-	transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .grid__container-img4-card_front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .grid__container-img4-card_back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backface-visibility: hidden;
-	background: rgb(5, 93, 155);
-	background: linear-gradient(
-		153deg,
-		rgba(5, 93, 155, 1) 0%,
-		rgba(1, 225, 150, 1) 100%
-	);
-	color: floralwhite;
-	transform: rotateY(180deg);
-	border-radius: 4rem 0.8rem 4rem 0.8rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: #055d9b;
+  background: linear-gradient(153deg, #055d9b 0%, #01e196 100%);
+  color: floralwhite;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border-radius: 4rem 0.8rem 4rem 0.8rem;
 }
 
 .grid__container-img4-card_back p {
-	font-size: 1.5rem;
-	margin: 0.1rem;
-	padding: 1.2rem;
-	line-height: 1.6;
-	margin-top: 4rem;
-
-
-
-
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  padding: 1.2rem;
+  line-height: 1.6;
+  margin-top: 4rem;
 }
 
-*/
 /*-------------------------------------------------CONTACTO------------------------------------------------------*/
 /*
 

@@ -99,6 +99,11 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 992px) {
+	.intro__header {
+	  font-size: 6rem;
+	}
+  }
 
 
 .intro__notice {
@@ -454,7 +459,7 @@ button:hover {
 
 }
 
-*/
+
 
 
 /*-------------------------------------------------CONTACTO------------------------------------------------------*/
