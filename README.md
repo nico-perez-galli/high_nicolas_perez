@@ -1,0 +1,5 @@
+# high_nicolas_perez
+
+High Idiomas es un equipo de personas comprometidas con una verdadera y efectiva enseñanza en el idioma inglés. Desde Córdoba hacia el mundo, gracias a la conexión virtual. Estamos motivados a ver la evolución constante de nuestros estudiantes, ya que compartimos la felicidad de alcanzar sus objetivos propuestos al comienzo de cada curso.
+High Idiomas, es una academia que brinda cursos de inglés para todos los niveles, personalizados para viajes, working, holiday y/o trabajo, para conectar realidades desde todos los puntos del país. Ofrecemos una manera diferente, innovadora y colaborativa de aprender inglés.
+Todos nuestro planes tienen un programa y una metodología orientada al desarrollo de las habilidades comunicativas, orales y escritas del alumno. ¿Qué hace diferente a High Idiomas? La manera en la que enseñamos este lenguaje, a través del diálogo, los juegos, la empatía, la atención a los pequeños detalles, los programas personalizados y nuestra capacitación constante de nuestro equipo.
