@@ -44,27 +44,21 @@ ul {
   width: 12rem;
 }
 
-.registrate {
-  border: solid 0.1rem white;
-  border-radius: 25rem;
-  padding: 1rem;
+#testimonios {
+  padding: 0.8rem;
+  text-decoration: none;
+  color: floralwhite;
 }
 
-/*
-a {
-	padding: 0.8rem;
-	text-decoration: none;
-	color: floralwhite;
+#testimonios:hover {
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  color: black;
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
 }
 
-a:hover {
-	transition: ease-in-out 0.3s;
-	cursor: pointer;
-	color: rgb(11, 202, 202);
-	transition: ease-in-out 0.6s;
-	font-size: 4rem;
-}
-*/
 .logo {
   width: 4rem;
   height: 4rem;
@@ -739,5 +733,26 @@ h2 {
 .card-text {
   color: gainsboro;
   padding: 1rem;
+}
+
+/*-------------------------------------------------REGISTRARSE------------------------------------------------------*/
+.divider:after,
+.divider:before {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
