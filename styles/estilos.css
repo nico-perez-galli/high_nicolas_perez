@@ -7,6 +7,15 @@
 }
 
 /*-------------------------------------------------INDEX------------------------------------------------------*/
+.alert_div {
+  color: #eee;
+  background: linear-gradient(153deg, #033558 0%, #05ffac 100%);
+}
+
+.alert_coupon {
+  border: dotted;
+}
+
 div {
   font-family: "poppins", sans-serif;
   font-size: larger;
@@ -259,12 +268,17 @@ button:hover {
 }
 
 /*-------------------------------------------------SERVICIOS------------------------------------------------------*/
+/*
+
 .servicios {
-  color: #444444;
-  display: inline;
-  padding: 2rem;
+	color: #444444;
+
+	display: inline;
+	padding: 2rem;
 }
 
+
+*/
 .grid__container {
   font-family: "poppins" sans-serif;
   font-size: 1.8rem;
