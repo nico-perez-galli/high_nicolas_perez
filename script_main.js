@@ -1,1 +1,1 @@
-alert ('hola, q haces ')
+alert ('esta es una prueba ')
